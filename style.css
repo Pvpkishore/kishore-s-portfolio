@@ -266,3 +266,88 @@ footer{
 .profiles .Git img{
     border-radius:50%;
 }
+@media screen and (max-width:1250px){
+    hr{
+        width:480px;
+    }
+    nav{
+        width:max-content;
+    }
+    .left .name{
+        font-size:1rem;
+        margin-left: 61px;
+        width: 161px;
+    }
+    nav ul{
+        left:30px;
+    }
+    nav ul li{
+        margin-right:15px;
+    }
+    .logo> img{
+        margin-left: 9px;
+        height:45px;
+    }
+   .firstsection{
+    /* flex-direction: column-reverse; */
+    margin-top:25px;
+    margin-bottom:14vh;
+    width:70vh;
+   }
+   .rightsection img{
+     margin-top:30px;
+     height:30vh;
+     margin-left: 40px;
+   }
+
+   .secondsection{
+    margin-left:94px;
+    margin-bottom:-28vh;
+   }
+   .thirdsection{
+    margin-bottom:65vh;
+    margin-left:94px;
+   }
+   .thirdsection .vertical{
+     height:unset;
+
+   }
+   .thirdsection #lastline {
+     /* margin-right: 0px; */
+     margin-left: -2px; 
+    }
+   .box{
+    flex-direction: column;
+   }
+   .thirdsection .box{
+    width:50vw;
+   }
+   .img-top {
+    top: 88px;
+}
+#bootstrap{
+    top:88px;
+}
+   .vertical, .vertical-desc{
+    left:35px;
+   }
+   .vertical-text, .vertical-desc{
+    left: 64px;
+   }
+   div#dice1 {
+    /* margin-top: -30px; */
+    margin-left: -65px;
+}
+#last-text {
+margin-bottom: 18px;
+}
+   .fourthsection{
+    margin-left: 94px;
+    margin-bottom:-65px;
+   }
+
+   footer{
+    /* width: auto; */
+    width:100%;
+   }
+}
