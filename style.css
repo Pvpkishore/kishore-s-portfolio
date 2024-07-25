@@ -266,12 +266,12 @@ footer{
 .profiles .Git img{
     border-radius:50%;
 }
-@media screen and (max-width:1500px){
+@media screen and (max-width:1200px){
     hr{
         width:480px;
     }
     nav{
-        width:max-content;
+        width:170vw;
     }
     .left .name{
         font-size:1rem;
