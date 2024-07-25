@@ -266,7 +266,7 @@ footer{
 .profiles .Git img{
     border-radius:50%;
 }
- @media (min-width: 23px) and (max-width: 365px){
+ @media and (max-width: 365px){
     hr{
         width:480px;
     }
